@@ -1,0 +1,8 @@
+# 开发 / 测试依赖（非运行期必需）
+#
+# 运行期依赖与锁定版本见 requirements.txt / requirements-lock.txt；
+# 本文件仅补充开发与测试所需工具（当前为 pytest）。
+# 安装：.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+# 运行测试：.venv\Scripts\python.exe -m pytest tests
+-r requirements.txt
+pytest>=8

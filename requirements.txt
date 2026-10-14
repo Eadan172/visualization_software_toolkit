@@ -1,0 +1,16 @@
+# 顶层依赖清单
+#
+# PyMOL 说明：官方 PyPI 的 pymol-open-source（3.2.0a0）在 Windows 上缺少
+# 运行时依赖 DLL（glew32/freetype/libpng16/libxml2/netcdf），会导致
+# "DLL load failed while importing _cmd"。本项目改用自带全部依赖的
+# cgohlke 构建版 wheel（来源与说明见 software/README.md），本地离线安装：
+#   .venv\Scripts\python.exe -m pip install software\wheels\pymol-3.2.0a0-cp313-cp313-win_amd64.whl
+./software/wheels/pymol-3.2.0a0-cp313-cp313-win_amd64.whl
+numpy>=2.0
+MDAnalysis>=2.10
+mdtraj>=1.11
+rdkit>=2026.9.1
+py3Dmol>=2.5
+molviewspec>=1.8
+matplotlib>=3.11
+pillow>=12.3
