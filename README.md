@@ -106,7 +106,6 @@ visualization_software_toolkit\
 ├─ 启动.bat                  # 双击启动器
 ├─ requirements.txt          # 运行依赖
 ├─ requirements-lock.txt     # 依赖版本锁定
-├─ requirements-dev.txt      # 开发 / 测试依赖
 ├─ data\                     # 示例数据（1ubq / 1hsg / 合成轨迹）
 ├─ tests\                    # 测试
 ├─ tools\                    # verify_install.py / molvis.py
